@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fabkraftz | Handmade. Colourful. Fab.</title>
+<meta name="description" content="Fabkraftz - Handmade crochet bags, candles, diffusers & artsy decor in Centurion, South Africa. Order on WhatsApp.">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',Arial,sans-serif}
+body{background:#fffafc;color:#222}
+a{text-decoration:none}
+header{background:#fff;padding:14px 20px;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:10;box-shadow:0 2px 10px rgba(0,0,0,.06)}
+.logo{font-size:26px;font-weight:900;letter-spacing:2px}
+.logo span{color:#e91e7a}
+nav a{margin-left:16px;color:#222;font-weight:700;font-size:14px}
+.hero{max-width:1100px;margin:20px auto;padding:0 16px;display:grid;grid-template-columns:1.1fr .9fr;gap:24px;align-items:center}
+.hero img{width:100%;border-radius:20px;box-shadow:0 10px 30px rgba(0,0,0,.12)}
+.hero h1{font-size:44px;line-height:1.05}
+.hero h1 em{color:#e91e7a;font-style:normal}
+.hero p{margin:14px 0;color:#555;font-size:17px;line-height:1.6}
+.btn{display:inline-block;background:#e91e7a;color:#fff;padding:13px 22px;border-radius:30px;font-weight:800;margin-right:10px;margin-top:6px}
+.btn.dark{background:#111}
+.pills{margin-top:14px;display:flex;gap:8px;flex-wrap:wrap}
+.pills span{background:#ffe8f1;color:#a8004d;padding:7px 12px;border-radius:20px;font-size:13px;font-weight:700}
+.bar{background:#111;color:#fff;text-align:center;padding:12px;font-weight:700;font-size:15px}
+.bar b{color:#ff8fbf}
+.section{max-width:1100px;margin:0 auto;padding:28px 16px}
+.section h2{font-size:28px;margin-bottom:6px}
+.section > p{color:#666;margin-bottom:18px}
+.filter{margin-bottom:18px;display:flex;gap:8px;flex-wrap:wrap}
+.filter button{border:1px solid #ddd;background:#fff;padding:9px 16px;border-radius:20px;font-weight:700;cursor:pointer}
+.filter button.active{background:#111;color:#fff}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{border:1px solid #eee;border-radius:18px;overflow:hidden;background:#fff;box-shadow:0 4px 16px rgba(0,0,0,.05)}
+.card img{width:100%;height:260px;object-fit:cover;background:#f5f5f5}
+.card-body{padding:16px}
+.pill{display:inline-block;background:#ffe8f1;color:#a8004d;font-size:11px;font-weight:800;padding:5px 10px;border-radius:20px;letter-spacing:.5px}
+.card h3{margin:10px 0 6px;font-size:19px}
+.card p{color:#666;font-size:14px;line-height:1.5;min-height:42px}
+.price{font-size:24px;font-weight:900;margin:10px 0}
+.order{display:block;text-align:center;background:#25D366;color:#fff;padding:12px;border-radius:12px;font-weight:800}
+.order:hover{background:#1fb857}
+.bestseller{position:relative}
+.bestseller:before{content:"BESTSELLER";position:absolute;top:10px;left:10px;background:#e91e7a;color:#fff;font-size:11px;font-weight:800;padding:6px 10px;border-radius:20px;z-index:2}
+.about{background:#111;color:#fff;border-radius:20px;padding:28px;display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.about h2{color:#fff}
+.about p{color:#ddd;line-height:1.7;margin-top:10px}
+.about ul{margin-top:12px;list-style:none}
+.about li{padding:6px 0;color:#fff}
+footer{background:#fffafc;text-align:center;padding:30px 16px;color:#666;font-size:14px;border-top:1px solid #eee}
+.whatsapp{position:fixed;bottom:20px;right:20px;background:#25D366;color:#fff;padding:14px 20px;border-radius:30px;font-weight:800;box-shadow:0 8px 20px rgba(0,0,0,.2);z-index:20}
+@media(max-width:800px){.hero{grid-template-columns:1fr}.hero h1{font-size:34px}.grid{grid-template-columns:1fr 1fr}.about{grid-template-columns:1fr}nav{display:none}}
+@media(max-width:500px){.grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">FAB<span>KRAFTZ</span></div>
+  <nav><a href="#bags">Bags</a><a href="#artsy">Artsy</a><a href="#fragrance">Fragrances</a><a href="#about">About</a></nav>
+  <a class="btn" style="padding:10px 16px;margin:0" href="https://wa.me/27813915562?text=Hi%20Fabkraftz!%20I%20want%20to%20order">Order on WhatsApp</a>
+</header>
+
+<div class="bar">WEBSITE IS LIVE! 🥳 &nbsp; Bags from <b>R150</b> • Candles <b>R100</b> • Artsy from <b>R50</b> &nbsp; | &nbsp; 📍 Centurion • 🚚 Courier Nationwide</div>
+
+<section class="hero">
+  <div>
+    <h1>Handmade.<br>Colourful. <em>Fab.</em></h1>
+    <p>Crochet bags, candles, diffusers & artsy decor — made by hand in Centurion, with love. Every piece is unique, bold and made to turn heads.</p>
+    <a class="btn" href="#bags">Shop Bags →</a>
+    <a class="btn dark" href="https://wa.me/27813915562?text=Hi%20Fabkraftz!%20I%20want%20to%20order">WhatsApp 081 391 5562</a>
+    <div class="pills"><span>🧶 Bags from R150</span><span>🕯️ Candles R100</span><span>🎨 Artsy from R50</span><span>⭐ Handmade in SA</span></div>
+  </div>
+  <img src="poster.jpg" alt="Fabkraftz Launch Poster">
+</section>
+
+<!-- BAGS -->
+<section class="section" id="bags">
+  <h2>🧶 Crochet Bags</h2>
+  <p>Strong, light & roomy. Hand-crocheted with chunky yarn.</p>
+  <div class="grid">
+
+    <div class="card bestseller">
+      <img src="ladybug.jpg" alt="Ladybug Bag">
+      <div class="card-body"><span class="pill">BAG • BESTSELLER</span><h3>Ladybug Bucket Bag</h3><p>Hot pink bucket bag with ribbon bow. Our signature Fab piece.</p><div class="price">R400</div><a class="order" href="https://wa.me/27813915562?text=Hi%20Fabkraftz!%20I%20want%20to%20order%20the%20Ladybug%20Bag%20(R400)">Order Ladybug →</a></div>
+    </div>
+
+    <div class="card">
+      <img src="tote-rainbow.jpg" alt="Tote Bag Rainbow">
+      <div class="card-body"><span class="pill">TOTE • 2 SIZES</span><h3>Medium Tote Bag</h3><p>Everyday tote. Available in Rainbow, Solid Black or Solid Red.</p><div class="price">R350</div><a class="order" href="https://wa.me/27813915562?text=Hi%20Fabkraftz!%20I%20want%20to%20order%20the%20Medium%20Tote%20Bag%20(R350).%20My%20colour%20is:">Order Medium Tote →</a></div>
+    </div>
+
+    <div class="card">
+      <img src="tote-rainbow.jpg" alt="Large Tote Beach Bag Rainbow">
+      <div class="card-body"><span class="pill">TOTE • BEACH • LARGE</span><h3>Large Tote / Beach Bag</h3><p>Big beach-ready tote. Fits towels, books & more. Rainbow, Black or Red.</p><div class="price">R700</div><a class="order" href="https://wa.me/27813915562?text=Hi%20Fabkraftz!%20I%20want%20to%20order%20the%20Large%20Tote%20/%20Beach%20Bag%20(R700).%20My%20colour%20is:">Order Large Tote →</a></div>
+    </div>
+
+    <div class="card">
+      <img src="minime.jpg" alt="MiniMe Bag">
+      <div class="card-body"><span class="pill">BAG • MINI</span><h3>MiniMe Bag</h3><p>Cute mini bucket bag. Perfect for phone, keys & lipstick.</p><div class="price">R250</div><a class="order" href="https://wa.me/27813915562?text=Hi%20Fabkraftz!%20I%20want%20to%20order%20the%20MiniMe%20Bag%20(R250)">Order MiniMe →</a></div>
+    </div>
+
+    <div class="card">
+      <img src="clutch-black.jpg" alt="Medium Clutch Black">
+      <div class="card-body"><span class="pill">CLUTCH • BLACK</span><h3>Medium Clutch - Black</h3><p>Classy black clutch with gold chain & tassel. Work to evening.</p><div class="price">R400</div><a class="order" href="https://wa.me/27813915562?text=Hi%20Fabkraftz!%20I%20want%20to%20order%20the%20Medium%20Clutch%20Black%20(R400)">Order Black Clutch →</a></div>
+    </div>
+
+    <div class="card">
+      <img src="clutch-rainbow.jpg" alt="Large Clutch Rainbow">
+      <div class="card-body"><span class="pill">CLUTCH • RAINBOW</span><h3>Large Clutch - Rainbow</h3><p>Bold rainbow clutch. Statement piece for any outfit.</p><div class="price">R550</div><a class="order" href="https://wa.me/27813915562?text=Hi%20Fabkraftz!%20I%20want%20to%20order%20the%20Large%20Clutch%20Rainbow%20(R550)">Order Rainbow Clutch →</a></div>
+    </div>
+
+    <div class="card">
+      <img src="beanie.jpg" alt="Beanie">
+      <div class="card-body"><span class="pill">WINTER • BEANIE</span><h3>Beanie</h3><p>Warm chunky crochet beanie. Cosy & colourful.</p><div class="price">R150</div><a class="order" href="https://wa.me/27813915562?text=Hi%20Fabkraftz!%20I%20want%20to%20order%20the%20Beanie%20(R150).%20My%20colour%20is:">Order Beanie →</a></div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ARTSY -->
+<section class="section" id="artsy">
+  <h2>🎨 Artsy & Decor</h2>
+  <p>Hand-woven & hand-made pieces for your home.</p>
+  <div class="grid">
+    <div class="card bestseller">
+      <img src="wall.jpg" alt="Woven Wall Hanging">
+      <div class="card-body"><span class="pill">DECOR • 80x60CM</span><h3>Woven Wall Hanging</h3><p>80cm x 60cm hand-woven wall hanging on wooden dowel. Hot pink fringe.</p><div class="price">R800</div><a class="order" href="https://wa.me/27813915562?text=Hi%20Fabkraftz!%20I%20want%20to%20order%20the%20Woven%20Wall%20Hanging%20(R800)">Order Wall Hanging →</a></div>
+    </div>
+    <div class="card">
+      <img src="tray.jpg" alt="Tray Set">
+      <div class="card-body"><span class="pill">DECOR • SET</span><h3>Tray Set</h3><p>Beautiful handmade tray set for candles, keys & decor.</p><div class="price">R300</div><a class="order" href="https://wa.me/27813915562?text=Hi%20Fabkraftz!%20I%20want%20to%20order%20the%20Tray%20Set%20(R300)">Order Tray Set →</a></div>
+    </div>
+    <div class="card">
+      <img src="thinker.jpg" alt="Little Thinker">
+      <div class="card-body"><span class="pill">ARTSY • GIFT</span><h3>Little Thinker</h3><p>Small artsy thinker figure. Perfect gift / desk piece.</p><div class="price">R50</div><a class="order" href="https://wa.me/27813915562?text=Hi%20Fabkraftz!%20I%20want%20to%20order%20the%20Little%20Thinker%20(R50)">Order Little Thinker →</a></div>
+    </div>
+  </div>
+</section>
+
+<!-- FRAGRANCE -->
+<section class="section" id="fragrance">
+  <h2>🕯️ Fragrances - Citronella & Vanilla</h2>
+  <p>Fresh citronella + warm vanilla. Made to make your home smell Fab.</p>
+  <div class="grid">
+    <div class="card bestseller">
+      <img src="candle.jpg" alt="Candle and Diffuser Set">
+      <div class="card-body"><span class="pill">SET • SAVE R30</span><h3>Candle + Diffuser Set</h3><p>Blue glass candle + diffuser. The full Fab home set.</p><div class="price">R320</div><a class="order" href="https://wa.me/27813915562?text=Hi%20Fabkraftz!%20I%20want%20to%20order%20the%20Candle%20+%20Diffuser%20Set%20(R320)">Order Set →</a></div>
+    </div>
+    <div class="card">
+      <img src="candle.jpg" alt="Candle">
+      <div class="card-body"><span class="pill">CANDLE</span><h3>Candle - Citronella & Vanilla</h3><p>Blue glass candle. Long-lasting, beautiful scent.</p><div class="price">R100</div><a class="order" href="https://wa.me/27813915562?text=Hi%20Fabkraftz!%20I%20want%20to%20order%20the%20Candle%20(R100)">Order Candle →</a></div>
+    </div>
+    <div class="card">
+      <img src="diffuser.jpg" alt="Diffuser">
+      <div class="card-body"><span class="pill">DIFFUSER</span><h3>Diffuser - Citronella & Vanilla</h3><p>Reed diffuser in blue glass bottle. Lasts for weeks.</p><div class="price">R250</div><a class="order" href="https://wa.me/27813915562?text=Hi%20Fabkraftz!%20I%20want%20to%20order%20the%20Diffuser%20(R250)">Order Diffuser →</a></div>
+    </div>
+    <div class="card">
+      <img src="spray.jpg" alt="Room Spray">
+      <div class="card-body"><span class="pill">SPRAY</span><h3>Room & Linen Spray</h3><p>Instant freshness for rooms, bedding & curtains.</p><div class="price">R150</div><a class="order" href="https://wa.me/27813915562?text=Hi%20Fabkraftz!%20I%20want%20to%20order%20the%20Room%20Spray%20(R150)">Order Spray →</a></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="about">
+  <div class="about">
+    <div><h2>About Fabkraftz</h2><p>Hi, I'm the founder of Fabkraftz in Centurion. I make every piece by hand — crochet bags, candles, diffusers & decor. No factory, no mass production. Just colour, craft & love.</p><p>Want a custom colour? Message me — I love custom orders!</p></div>
+    <div><h2 style="font-size:20px">How to Order</h2><ul><li>1️⃣ Click any green Order button</li><li>2️⃣ It opens WhatsApp with your order</li><li>3️⃣ Send it + your colour / address</li><li>4️⃣ Pay & I make / pack your order</li><li>📍 Centurion | 🚚 Courier nationwide</li><li>📞 WhatsApp: 081 391 5562</li></ul></div>
+  </div>
+</section>
+
+<footer>
+  <b style="color:#111;font-size:18px">FABKRAFTZ</b><br><br>
+  Handmade. Colourful. Fab.<br>
+  Instagram: @fabkraftz • WhatsApp: 081 391 5562 • Centurion, SA<br><br>
+  © 2026 Fabkraftz. All rights reserved.
+</footer>
+
+<a class="whatsapp" href="https://wa.me/27813915562?text=Hi%20Fabkraftz!%20I%20want%20to%20order">💬 Order on WhatsApp</a>
+
+</body>
+</html>
